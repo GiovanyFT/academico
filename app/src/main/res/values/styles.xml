@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Definindo um tema personalizado -->
+   <style name="TemaPersonalizado" parent="Theme.AppCompat.Light.NoActionBar">
+    	<!-- colorPrimary is used for the default action bar background -->
+    	<item name="colorPrimary">@color/colorPrimary</item>
+
+    	<!-- colorPrimaryDark is used for the status bar -->
+    	<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    	<!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets -->
+    	<item name="colorAccent">@color/colorAccent</item>
+
+    	<!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight, and colorSwitchThumbNormal. -->
+        <item name="colorControlNormal">@android:color/white</item>
+    
+	</style>
+    
+    
+    <!-- Definindo o layout de um floating button -->
+    <style name="FloatingButton" >
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Definindo o layout de um botão + -->
+    <style name="FloatingButtonIncluir"  parent="FloatingButton">
+        <item name="android:background">@drawable/fundo</item>
+        <item name="android:text">+</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <!-- Definindo o layout de um botão de foto -->
+    <style name="FloatingButtonFoto"  parent="FloatingButton">
+        <item name="android:background">@drawable/formulario_foto_button</item>
+    </style>
+
+    <!-- Definindo o layout de um botão de Galeria -->
+    <style name="FloatingButtonGaleria"  parent="FloatingButton">
+        <item name="android:background">@drawable/formulario_file_button</item>
+    </style>
+
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

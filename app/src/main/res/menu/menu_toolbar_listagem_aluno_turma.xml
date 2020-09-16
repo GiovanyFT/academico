@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_ver_provas"
+        android:title="Listagem Provas"
+        android:icon="@drawable/ic_calendar_check_white_24dp"
+        app:showAsAction="always" />
+
+
+
+</menu>

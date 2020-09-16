@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="linha_par">#97CBE2</color>
+    <color name="linha_impar">#76BDDD</color>
+    
+    
+     <!-- Definindo cores de um tema personalizado em styles.xml -->
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#795548</color>
+</resources>

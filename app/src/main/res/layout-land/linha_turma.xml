@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linha"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="5sp"
+        android:id="@+id/item_nome"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:id="@+id/item_qt_aluno"
+        android:layout_below="@id/item_nome"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" /> 
+
+
+</RelativeLayout>

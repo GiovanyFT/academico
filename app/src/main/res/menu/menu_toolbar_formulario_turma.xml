@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_mostrar_alunos_mapa"
+        android:title="Mostrar Mapa filmes"
+        android:icon="@drawable/ic_google_maps_white_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_mostar_json_aluno"
+        android:title="Mostrar JSON dos filmes"
+        android:icon="@drawable/ic_file_xml_white_24dp"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menu_incluir_aluno"
+        android:title="Incluir Aluno"
+        android:icon="@drawable/ic_account_plus_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_salvar_turma"
+        android:title="Salvar Turma"
+        android:icon="@drawable/ic_check_white_24dp"
+        app:showAsAction="always" />
+</menu>

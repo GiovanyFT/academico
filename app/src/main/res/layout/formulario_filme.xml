@@ -1,0 +1,79 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:background="#00A8EC"
+                android:id="@+id/formulario_foto"
+                android:src="@drawable/ic_no_image"/>
+            <!-- A tag style define o estilo FloatingButtonGaleria que seta uma
+            série de atributos do botão para valores padrão - ver styles.xml -->
+            <Button
+                style="@style/FloatingButtonGaleria"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:id="@+id/formulario_explorer_button"
+                />
+            <!-- A tag style define o estilo FloatingButtonFoto que seta uma
+              série de atributos do botão para valores padrão -->
+            <Button
+                style="@style/FloatingButtonFoto"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:id="@+id/formulario_foto_button"
+                />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/formulario_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"/>
+
+        <EditText
+            android:id="@+id/formulario_sinopse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="sinopse"/>
+
+        <EditText
+            android:id="@+id/formulario_ano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ano"/>
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tb_formulario_filme"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:elevation="4dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/TemaPersonalizado" />
+
+    </LinearLayout>
+
+
+</ScrollView>

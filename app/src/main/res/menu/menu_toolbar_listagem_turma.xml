@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_buscar_alunos"
+        android:title="Listagem de filmes"
+        android:icon="@drawable/ic_account_multiple_white_24dp"
+        app:showAsAction="always" />
+
+
+
+</menu>

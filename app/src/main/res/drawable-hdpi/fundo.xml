@@ -1,0 +1,9 @@
+<!--
+Configuração de forma necessaria para um Floating Button do Material
+Design
+-->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FF0000"/>
+</shape>
